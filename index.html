@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anjali Pandey | Web Developer & SEO Specialist Portfolio</title>
+<meta name="description" content="Anjali Pandey – web developer and SEO specialist from India. Explore the legal, IP, accounting, healthcare, marketing and construction websites she has designed, built and optimised for search.">
+<meta name="keywords" content="Anjali Pandey, web developer, SEO specialist, portfolio, legal website, trademark website, on-page SEO, technical SEO, schema markup, India">
+<meta name="author" content="Anjali Pandey">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#05060f">
+<!-- After publishing on GitHub Pages, replace the URL below with your real one: https://YOUR-USERNAME.github.io/ -->
+<link rel="canonical" href="https://YOUR-USERNAME.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Anjali Pandey | Web Developer & SEO Specialist">
+<meta property="og:description" content="Animated portfolio of websites built and optimised by Anjali Pandey – legal, IP, accounting, healthcare, marketing and construction.">
+<meta property="og:url" content="https://YOUR-USERNAME.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Anjali Pandey | Web Developer & SEO Specialist">
+<meta name="twitter:description" content="Animated portfolio of websites built and optimised by Anjali Pandey.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%237c5cff'/%3E%3Ctext x='50' y='68' font-size='56' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Anjali Pandey",
+  "jobTitle": "Web Developer & SEO Specialist",
+  "url": "https://YOUR-USERNAME.github.io/",
+  "sameAs": ["https://www.linkedin.com/in/anjali-pandey-87b1903a5/"],
+  "knowsAbout": ["Web Development", "Search Engine Optimization", "On-Page SEO", "Technical SEO", "Schema Markup", "Responsive Design"],
+  "workExample": [
+    {"@type": "WebSite", "name": "Legal Startup", "url": "https://legalstartup.in/"},
+    {"@type": "WebSite", "name": "LegalIP", "url": "https://legalip.in/"},
+    {"@type": "WebSite", "name": "TrademarkDelhi", "url": "https://trademarkdelhi.in/"},
+    {"@type": "WebSite", "name": "Trisuka", "url": "https://trisuka.com/"},
+    {"@type": "WebSite", "name": "Zynera Healthcare", "url": "https://zynerahealthcare.com/"},
+    {"@type": "WebSite", "name": "Business24Hub", "url": "https://business24hub.com/"},
+    {"@type": "WebSite", "name": "Trisdha", "url": "https://trisdha.com/"},
+    {"@type": "WebSite", "name": "Dayma & Associates Law Chamber", "url": "https://daymalawchamber.com/"}
+  ]
+}
+</script>
+<style>
+:root{
+  --bg:#05060f; --bg2:#0b0d1c; --txt:#eef0ff; --mut:#9aa0c3;
+  --c1:#7c5cff; --c2:#00e5ff; --c3:#ff4ecd;
+  --grad:linear-gradient(120deg,var(--c1),var(--c2) 55%,var(--c3));
+  --fit:1;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--txt);font-family:'Space Grotesk',system-ui,sans-serif;overflow-x:hidden;line-height:1.6}
+body.loading{overflow:hidden}
+a{color:inherit;text-decoration:none}
+.mono{font-family:'JetBrains Mono',monospace}
+.grad{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent;background-size:200% auto;animation:shine 6s linear infinite}
+@keyframes shine{to{background-position:200% center}}
+
+/* ============ INTRO: LAPTOP ============ */
+#intro{position:fixed;inset:0;z-index:1000;background:radial-gradient(ellipse at 50% 60%,#14163a 0,#05060f 70%);display:grid;place-items:center;overflow:hidden;transition:opacity .9s ease}
+#intro.hide{opacity:0;pointer-events:none}
+#intro::before{content:"";position:absolute;inset:-50%;background:
+  radial-gradient(circle at 20% 30%,rgba(124,92,255,.25),transparent 30%),
+  radial-gradient(circle at 80% 70%,rgba(0,229,255,.18),transparent 30%);
+  animation:drift 14s ease-in-out infinite alternate}
+@keyframes drift{to{transform:translate(6%,4%) rotate(8deg)}}
+.fit{width:560px;height:350px;perspective:1500px;transform:scale(var(--fit));transition:transform 1.7s cubic-bezier(.7,0,.25,1);position:relative}
+.rig{position:absolute;inset:0;transform-style:preserve-3d;transform-origin:50% 100%;
+  transform:translateY(-170px) rotateX(34deg);transition:transform 2.6s cubic-bezier(.6,.05,.2,1)}
+#intro.open .rig{transform:translateY(-10px) rotateX(20deg)}
+#intro.face .rig{transform:translateY(0) rotateX(0deg);transition-duration:1.7s}
+.lid{position:absolute;left:0;bottom:0;width:560px;height:350px;transform-origin:50% 100%;transform-style:preserve-3d;
+  transform:rotateX(-90deg);transition:transform 2.6s cubic-bezier(.6,.05,.2,1)}
+#intro.open .lid{transform:rotateX(9deg)}
+#intro.face .lid{transform:rotateX(0deg);transition-duration:1.7s}
+.lid-front,.lid-back{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:18px 18px 6px 6px}
+.lid-back{transform:rotateY(180deg);background:linear-gradient(135deg,#c9ccdd,#8b8fa8 55%,#b7bad0);display:grid;place-items:center;box-shadow:0 0 0 2px #6d7090 inset}
+.lid-back i{width:62px;height:62px;border-radius:50%;background:radial-gradient(circle,#fff 0,#a9adff 40%,transparent 70%);filter:blur(1px);opacity:.85}
+.lid-front{background:#0b0c16;padding:14px 14px 18px;box-shadow:0 0 0 2px #2b2e4a inset,0 30px 90px rgba(124,92,255,.35)}
+.display{position:relative;width:100%;height:100%;border-radius:8px;overflow:hidden;background:radial-gradient(ellipse at 50% 0,#171a44 0,#05060f 75%);padding:16px 20px;color:#cfd3ff;font-family:'JetBrains Mono',monospace;font-size:12px;line-height:1.8}
+.display::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(255,255,255,.035) 0 1px,transparent 1px 3px);pointer-events:none}
+.cam{position:absolute;top:5px;left:50%;width:5px;height:5px;border-radius:50%;background:#333a66;transform:translateX(-50%)}
+.display .dots{display:flex;gap:6px;margin-bottom:8px}
+.display .dots b{width:9px;height:9px;border-radius:50%;background:#ff5f57}
+.display .dots b:nth-child(2){background:#febc2e}.display .dots b:nth-child(3){background:#28c840}
+.t-line{min-height:22px;white-space:pre}
+.t-prompt{color:var(--c2)}
+.t-name{font-family:'Space Grotesk',sans-serif;font-size:40px;font-weight:700;line-height:1.15;letter-spacing:-1px;margin:6px 0 2px;min-height:48px}
+.t-role{color:var(--c3);min-height:22px}
+.caret{display:inline-block;width:.55em;height:1.05em;background:var(--c2);vertical-align:-2px;margin-left:2px;animation:blink .8s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.bar{height:5px;border-radius:5px;background:#1b1e44;margin-top:12px;overflow:hidden;opacity:0;transition:opacity .4s}
+.bar.on{opacity:1}
+.bar i{display:block;height:100%;width:0;background:var(--grad);transition:width 1.4s ease}
+.base{position:absolute;left:-14px;top:100%;width:588px;height:350px;transform-origin:50% 0;transform:rotateX(90deg);
+  background:linear-gradient(180deg,#9fa3bd,#7b7f9b);border-radius:6px 6px 26px 26px;box-shadow:0 0 0 2px #5d607c inset,0 60px 90px rgba(0,0,0,.7)}
+.keys{position:absolute;left:34px;right:34px;top:26px;height:190px;border-radius:8px;
+  background:repeating-linear-gradient(90deg,transparent 0 28px,#101226 28px 32px),repeating-linear-gradient(0deg,transparent 0 24px,#101226 24px 28px),#242848;
+  box-shadow:0 0 0 4px #101226,0 0 28px rgba(124,92,255,.7);animation:rgb 5s linear infinite}
+@keyframes rgb{to{filter:hue-rotate(360deg)}}
+.pad{position:absolute;left:50%;top:238px;width:190px;height:84px;margin-left:-95px;border-radius:10px;background:#8c90ab;box-shadow:0 0 0 2px #6b6e8a inset}
+#skip{position:absolute;right:22px;bottom:22px;z-index:5;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.2);color:#dfe2ff;padding:8px 16px;border-radius:30px;font:500 13px 'Space Grotesk',sans-serif;cursor:pointer;backdrop-filter:blur(8px);transition:.25s}
+#skip:hover{background:rgba(255,255,255,.18)}
+.hint{position:absolute;left:50%;bottom:30px;transform:translateX(-50%);color:var(--mut);font-size:13px;letter-spacing:.3em;text-transform:uppercase;animation:pulse 2s infinite}
+@keyframes pulse{50%{opacity:.35}}
+
+/* ============ GLOBAL SITE ============ */
+#bg{position:fixed;inset:0;z-index:0;pointer-events:none}
+.blob{position:fixed;border-radius:50%;filter:blur(90px);opacity:.35;z-index:0;pointer-events:none}
+.b1{width:420px;height:420px;background:var(--c1);top:-120px;left:-100px;animation:float 16s ease-in-out infinite alternate}
+.b2{width:380px;height:380px;background:var(--c2);bottom:-120px;right:-80px;animation:float 19s ease-in-out infinite alternate-reverse}
+@keyframes float{to{transform:translate(80px,60px) scale(1.2)}}
+#progress{position:fixed;top:0;left:0;height:3px;width:0;background:var(--grad);z-index:900}
+.cursor,.ring{position:fixed;top:0;left:0;pointer-events:none;z-index:2000;border-radius:50%;transform:translate(-50%,-50%);opacity:0;transition:opacity .3s,width .25s,height .25s}
+.cursor{width:8px;height:8px;background:var(--c2)}
+.ring{width:38px;height:38px;border:1.5px solid rgba(0,229,255,.6)}
+body.ready .cursor,body.ready .ring{opacity:1}
+.ring.big{width:70px;height:70px;border-color:var(--c3)}
+@media(hover:none){.cursor,.ring{display:none}}
+main,nav,footer{position:relative;z-index:2}
+nav{position:fixed;top:0;left:0;right:0;z-index:800;display:flex;justify-content:space-between;align-items:center;padding:16px 5vw;
+  backdrop-filter:blur(14px);background:rgba(5,6,15,.55);border-bottom:1px solid rgba(255,255,255,.06);transform:translateY(-100%);transition:transform .8s .4s}
+body.ready nav{transform:none}
+.logo{font-weight:700;font-size:20px;letter-spacing:-.5px}
+.logo span{color:var(--c2)}
+nav ul{display:flex;gap:30px;list-style:none}
+nav ul a{font-size:14px;color:var(--mut);position:relative;transition:.25s}
+nav ul a::after{content:"";position:absolute;left:0;bottom:-6px;height:2px;width:0;background:var(--grad);transition:.3s}
+nav ul a:hover{color:#fff}nav ul a:hover::after{width:100%}
+.burger{display:none;background:none;border:0;color:#fff;font-size:26px;cursor:pointer}
+section{padding:110px 5vw;max-width:1250px;margin:0 auto}
+.eyebrow{font-size:13px;letter-spacing:.3em;text-transform:uppercase;color:var(--c2);margin-bottom:12px}
+h2{font-size:clamp(30px,5vw,54px);line-height:1.1;letter-spacing:-1.5px;margin-bottom:18px}
+.lead{color:var(--mut);max-width:640px;font-size:18px}
+.reveal{opacity:0;transform:translateY(46px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1)}
+.reveal.in{opacity:1;transform:none}
+.d1{transition-delay:.1s}.d2{transition-delay:.2s}.d3{transition-delay:.3s}
+
+/* hero */
+#home{min-height:100vh;display:grid;grid-template-columns:1.15fr .85fr;gap:30px;align-items:center;padding-top:130px}
+.hello{display:inline-flex;gap:10px;align-items:center;border:1px solid rgba(255,255,255,.14);padding:7px 16px;border-radius:30px;font-size:14px;color:var(--mut);background:rgba(255,255,255,.04)}
+.hello i{width:8px;height:8px;border-radius:50%;background:#28c840;box-shadow:0 0 0 0 #28c840;animation:ping 1.8s infinite}
+@keyframes ping{70%{box-shadow:0 0 0 10px transparent}}
+h1{font-size:clamp(42px,6.2vw,92px);line-height:1.02;letter-spacing:-3px;margin:22px 0 14px}
+h1 .w{display:inline-block;white-space:nowrap}
+h1 .ch{display:inline-block;opacity:0;transform:translateY(80px) rotateX(-80deg);transition:opacity .7s,transform .9s cubic-bezier(.2,.8,.2,1)}
+body.ready h1 .ch{opacity:1;transform:none}
+.role{font-size:clamp(18px,2.4vw,26px);color:var(--mut);min-height:40px}
+.role b{color:#fff;font-weight:500}
+.cta{display:flex;gap:16px;margin-top:34px;flex-wrap:wrap}
+.btn{position:relative;overflow:hidden;padding:15px 30px;border-radius:50px;font-weight:600;font-size:15px;border:1px solid rgba(255,255,255,.2);transition:transform .25s,box-shadow .25s}
+.btn.pri{background:var(--grad);color:#05060f;border:0;box-shadow:0 10px 40px rgba(124,92,255,.45)}
+.btn:hover{transform:translateY(-4px) scale(1.03)}
+.btn.sec:hover{background:rgba(255,255,255,.08)}
+.hero-in{opacity:0;transform:translateY(30px);transition:opacity .8s,transform .8s}
+body.ready .hero-in{opacity:1;transform:none}
+body.ready .hero-in.d1{transition-delay:.5s}body.ready .hero-in.d2{transition-delay:.7s}body.ready .hero-in.d3{transition-delay:.9s}body.ready .hero-in.d4{transition-delay:1.1s}
+/* cube */
+.cube-wrap{height:420px;display:grid;place-items:center;perspective:900px;position:relative}
+.ring3d{position:absolute;border-radius:50%;border:1px dashed rgba(255,255,255,.18)}
+.r1{width:340px;height:340px;animation:spin 22s linear infinite}
+.r2{width:440px;height:440px;animation:spin 34s linear infinite reverse;border-color:rgba(0,229,255,.25)}
+.ring3d i{position:absolute;top:-6px;left:50%;width:12px;height:12px;border-radius:50%;background:var(--c3);box-shadow:0 0 20px var(--c3)}
+.r2 i{background:var(--c2);box-shadow:0 0 20px var(--c2);top:auto;bottom:-6px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.cube{width:170px;height:170px;position:relative;transform-style:preserve-3d;animation:cube 16s linear infinite}
+@keyframes cube{from{transform:rotateX(-22deg) rotateY(0)}to{transform:rotateX(-22deg) rotateY(360deg)}}
+.face3{position:absolute;inset:0;display:grid;place-items:center;font:700 26px 'Space Grotesk';letter-spacing:1px;border:1.5px solid rgba(255,255,255,.35);background:linear-gradient(135deg,rgba(124,92,255,.35),rgba(0,229,255,.2));backdrop-filter:blur(4px);box-shadow:0 0 40px rgba(124,92,255,.5) inset}
+.f1{transform:translateZ(85px)}.f2{transform:rotateY(90deg) translateZ(85px)}.f3{transform:rotateY(180deg) translateZ(85px)}
+.f4{transform:rotateY(-90deg) translateZ(85px)}.f5{transform:rotateX(90deg) translateZ(85px)}.f6{transform:rotateX(-90deg) translateZ(85px)}
+.scroll{position:absolute;left:5vw;bottom:30px;font-size:12px;letter-spacing:.3em;color:var(--mut);display:flex;align-items:center;gap:12px}
+.scroll i{width:1px;height:46px;background:linear-gradient(var(--c2),transparent);animation:drop 1.8s infinite}
+@keyframes drop{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+/* card screenshots */
+.shot-img{aspect-ratio:960/470;overflow:hidden;background:#0d0f22;position:relative}
+.shot-img img{width:100%;height:100%;object-fit:cover;object-position:top;display:block;transition:transform 1.2s cubic-bezier(.2,.7,.2,1)}
+.card:hover .shot-img img{transform:scale(1.09)}
+.shot-img::after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 40%,rgba(255,255,255,.16) 50%,transparent 60%);transform:translateX(-120%);transition:transform .9s}
+.card:hover .shot-img::after{transform:translateX(120%)}
+
+/* hero 3D screenshot carousel */
+.cube-wrap{height:480px;perspective:1300px;--sc:1}
+.sc{transform-style:preserve-3d;transform:scale(var(--sc));display:grid;place-items:center;width:0;height:0}
+.tilt{transform-style:preserve-3d;transform:rotateX(var(--tx,-12deg)) rotateY(var(--ty,0deg));transition:transform .35s ease-out;width:0;height:0;position:relative}
+.cubesc{position:absolute;left:0;top:0;transform-style:preserve-3d;transform:translate(-50%,-50%) scale(.62)}
+.carousel{position:absolute;left:0;top:0;width:0;height:0;transform-style:preserve-3d;animation:orbit 30s linear infinite}
+@keyframes orbit{to{transform:rotateY(360deg)}}
+.hshot{position:absolute;width:176px;height:108px;left:-88px;top:-54px;border-radius:9px;overflow:hidden;background:#0d0f22;
+  border:1px solid rgba(255,255,255,.28);box-shadow:0 18px 50px rgba(0,0,0,.55),0 0 30px rgba(124,92,255,.35);
+  transform:rotateY(calc(var(--i) * 45deg)) translateZ(265px) translateY(var(--y,0px));backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.hshot img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.hshot::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.18),transparent 40%)}
+.floor{position:absolute;left:50%;bottom:6%;width:460px;height:90px;margin-left:-230px;border-radius:50%;background:radial-gradient(ellipse,rgba(124,92,255,.55),transparent 70%);filter:blur(14px);animation:glow 4s ease-in-out infinite}
+@keyframes glow{50%{opacity:.45;transform:scaleX(.85)}}
+.fbadge{position:absolute;z-index:3;padding:8px 15px;border-radius:30px;background:rgba(15,17,40,.78);border:1px solid rgba(255,255,255,.2);backdrop-filter:blur(8px);font:600 13px 'JetBrains Mono',monospace;animation:bob2 5s ease-in-out infinite}
+.fb1{top:6%;left:2%}.fb2{top:62%;right:-2%;animation-delay:-1.6s}.fb3{bottom:3%;left:10%;animation-delay:-3.2s}.fb4{top:24%;right:2%;animation-delay:-2.4s}
+@keyframes bob2{50%{transform:translateY(-14px)}}
+.fbadge b{color:var(--c2)}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:50px;align-items:center}
+.about-grid p{color:var(--mut);margin-bottom:16px;font-size:17px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.stat{padding:28px 16px;text-align:center;border-radius:20px;background:linear-gradient(160deg,rgba(255,255,255,.08),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.1);transition:.4s}
+.stat:hover{transform:translateY(-8px);border-color:var(--c2)}
+.stat b{display:block;font-size:48px;line-height:1;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.stat span{font-size:13px;color:var(--mut)}
+
+/* projects */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:28px;margin-top:50px}
+.card{--rx:0deg;--ry:0deg;--mx:50%;--my:50%;position:relative;border-radius:24px;padding:18px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);
+  transform:perspective(900px) rotateX(var(--rx)) rotateY(var(--ry));transition:transform .15s ease-out,border-color .3s;display:flex;flex-direction:column;gap:16px;overflow:hidden}
+.card::before{content:"";position:absolute;inset:0;background:radial-gradient(380px circle at var(--mx) var(--my),rgba(124,92,255,.28),transparent 45%);opacity:0;transition:opacity .3s;pointer-events:none}
+.card:hover::before{opacity:1}.card:hover{border-color:rgba(0,229,255,.5)}
+.mock{border-radius:14px;overflow:hidden;background:#0d0f22;border:1px solid rgba(255,255,255,.08)}
+.mock .top{display:flex;align-items:center;gap:6px;padding:9px 12px;background:#14172f}
+.mock .top i{width:8px;height:8px;border-radius:50%;background:#ff5f57}.mock .top i:nth-child(2){background:#febc2e}.mock .top i:nth-child(3){background:#28c840}
+.mock .top em{margin-left:8px;flex:1;background:#0b0d1c;border-radius:20px;padding:2px 12px;font:11px 'JetBrains Mono';color:var(--mut);font-style:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mock .body{height:150px;padding:16px;position:relative;background:linear-gradient(135deg,var(--a),var(--b));overflow:hidden}
+.mock .body .ico{position:absolute;right:14px;top:10px;font-size:62px;filter:drop-shadow(0 8px 20px rgba(0,0,0,.4));animation:bob 4s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-10px) rotate(6deg)}}
+.mock .body span{display:block;height:9px;border-radius:6px;background:rgba(255,255,255,.55);margin-bottom:10px;animation:grow 3s ease-in-out infinite alternate}
+.mock .body span:nth-child(1){width:46%;height:14px;background:#fff}
+.mock .body span:nth-child(2){width:62%}.mock .body span:nth-child(3){width:38%;animation-delay:.4s}
+.mock .body .pill{display:block;width:84px;height:24px;border-radius:20px;background:#fff;margin-top:16px;animation:none}
+@keyframes grow{from{transform:scaleX(.7);transform-origin:left}to{transform:scaleX(1);transform-origin:left}}
+.tag{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--c2)}
+.card h3{font-size:24px;letter-spacing:-.5px;line-height:1.2}
+.card p{color:var(--mut);font-size:15px;flex:1}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips em{font-style:normal;font-size:12px;padding:4px 12px;border-radius:20px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1)}
+.visit{display:inline-flex;align-items:center;gap:8px;font-weight:600;color:#fff}
+.visit span{transition:transform .3s}.card:hover .visit span{transform:translate(5px,-5px)}
+
+/* skills */
+.marquee{overflow:hidden;margin-top:50px;mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+.track{display:flex;gap:16px;width:max-content;animation:scroll 32s linear infinite;margin-bottom:16px}
+.track.rev{animation-direction:reverse;animation-duration:40s}
+.marquee:hover .track{animation-play-state:paused}
+@keyframes scroll{to{transform:translateX(-50%)}}
+.pill2{padding:14px 28px;border-radius:50px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);font-size:17px;white-space:nowrap}
+.pill2:nth-child(3n){border-color:var(--c1)}.pill2:nth-child(3n+1){border-color:rgba(0,229,255,.5)}
+
+/* seo + process */
+.seo-grid,.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px;margin-top:46px}
+.box{padding:30px;border-radius:22px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);transition:.4s;position:relative;overflow:hidden}
+.box:hover{transform:translateY(-10px);border-color:var(--c3);box-shadow:0 20px 60px rgba(255,78,205,.15)}
+.box .ic{font-size:34px;margin-bottom:12px;display:block}
+.box h3{font-size:20px;margin-bottom:8px}.box p{color:var(--mut);font-size:15px}
+.num{position:absolute;right:16px;top:6px;font-size:70px;font-weight:700;color:rgba(255,255,255,.05)}
+
+/* contact */
+.contact{text-align:center;padding:90px 20px;border-radius:36px;background:radial-gradient(circle at 50% 0,rgba(124,92,255,.35),transparent 60%),rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.1)}
+.contact h2{font-size:clamp(34px,6vw,70px)}
+.contact .btn{display:inline-block;margin-top:26px;font-size:17px;padding:18px 40px}
+footer{text-align:center;padding:40px 20px 50px;color:var(--mut);font-size:14px}
+
+@media(max-width:900px){
+  #home{grid-template-columns:1fr;text-align:left}
+  .cube-wrap{height:340px;order:-1;--sc:.58}
+  .fb2,.fb4{display:none}
+  .about-grid{grid-template-columns:1fr}
+  nav ul{position:fixed;top:62px;right:-100%;flex-direction:column;background:#0b0d1c;width:70%;padding:30px;height:100vh;transition:right .4s}
+  nav ul.open{right:0}.burger{display:block}
+  .scroll{display:none}
+  .grid{grid-template-columns:1fr}
+  .t-name{font-size:34px}
+}
+@media(prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+noscript{display:block;padding:30px;text-align:center}
+</style>
+</head>
+<body class="loading">
+
+<!-- ================= INTRO ================= -->
+<div id="intro" aria-hidden="true">
+  <div class="fit" id="fit">
+    <div class="rig">
+      <div class="base"><div class="keys"></div><div class="pad"></div></div>
+      <div class="lid">
+        <div class="lid-back"><i></i></div>
+        <div class="lid-front">
+          <div class="display">
+            <div class="cam"></div>
+            <div class="dots"><b></b><b></b><b></b></div>
+            <div class="t-line"><span class="t-prompt">$ </span><span id="l1"></span></div>
+            <div class="t-line" id="l2"></div>
+            <div class="t-name"><span class="grad" id="nm"></span><span class="caret" id="caret"></span></div>
+            <div class="t-role" id="rl"></div>
+            <div class="bar" id="bar"><i id="fill"></i></div>
+            <div class="t-line" id="l5" style="margin-top:6px;color:#7f86c9"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hint">Opening portfolio</div>
+  <button id="skip" type="button">Skip intro ›</button>
+</div>
+
+<canvas id="bg"></canvas>
+<div class="blob b1"></div><div class="blob b2"></div>
+<div id="progress"></div>
+<div class="cursor" id="cur"></div><div class="ring" id="ring"></div>
+
+<nav>
+  <a href="#home" class="logo">Anjali<span> Pandey</span></a>
+  <button class="burger" id="burger" aria-label="Menu">☰</button>
+  <ul id="menu">
+    <li><a href="#about">About</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#seo">SEO</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<main>
+<section id="home">
+  <div>
+    <div class="hello hero-in d1"><i></i> Open for new projects</div>
+    <h1 aria-label="Anjali Pandey"><span class="grad" id="h1name"></span></h1>
+    <p class="role hero-in d2"><span class="mono">&lt;</span> <b id="roleTxt"></b><span class="caret"></span> <span class="mono">/&gt;</span></p>
+    <p class="lead hero-in d3" style="margin-top:14px">I design, build and optimise fast, search-friendly websites for legal, IP, accounting, healthcare, marketing and construction businesses.</p>
+    <div class="cta hero-in d4">
+      <a class="btn pri" href="#work">View my work</a>
+      <a class="btn sec" href="https://www.linkedin.com/in/anjali-pandey-87b1903a5/" target="_blank" rel="noopener me">LinkedIn ↗</a>
+    </div>
+  </div>
+  <div class="cube-wrap hero-in d3" aria-hidden="true" id="stage">
+    <div class="floor"></div>
+    <div class="ring3d r2"><i></i></div>
+    <div class="ring3d r1"><i></i></div>
+    <div class="sc"><div class="tilt" id="tilt">
+      <div class="cubesc"><div class="cube">
+        <div class="face3 f1">HTML</div><div class="face3 f2">CSS</div><div class="face3 f3">JS</div>
+        <div class="face3 f4">SEO</div><div class="face3 f5">UX</div><div class="face3 f6">GIT</div>
+      </div></div>
+      <div class="carousel"><div class="hshot" style="--i:0;--y:14px"><img src="images/legalstartup.jpg" alt="" width="960" height="470"></div><div class="hshot" style="--i:1;--y:-14px"><img src="images/legalip.jpg" alt="" width="960" height="470"></div><div class="hshot" style="--i:2;--y:14px"><img src="images/trademarkdelhi.jpg" alt="" width="960" height="470"></div><div class="hshot" style="--i:3;--y:-14px"><img src="images/trisuka.jpg" alt="" width="960" height="470"></div><div class="hshot" style="--i:4;--y:14px"><img src="images/zynerahealthcare.jpg" alt="" width="960" height="470"></div><div class="hshot" style="--i:5;--y:-14px"><img src="images/business24hub.jpg" alt="" width="960" height="470"></div><div class="hshot" style="--i:6;--y:14px"><img src="images/trisdha.jpg" alt="" width="960" height="470"></div><div class="hshot" style="--i:7;--y:-14px"><img src="images/daymalawchamber.jpg" alt="" width="960" height="470"></div></div>
+    </div></div>
+    <span class="fbadge fb1">⚡ <b>Fast</b> loading</span>
+    <span class="fbadge fb4">🔎 SEO <b>↑</b></span>
+    <span class="fbadge fb2">📱 Responsive</span>
+    <span class="fbadge fb3">&lt;/&gt; Clean code</span>
+  </div>
+  <div class="scroll mono"><i></i>SCROLL</div>
+</section>
+
+<section id="about">
+  <div class="about-grid">
+    <div class="reveal">
+      <p class="eyebrow mono">// about me</p>
+      <h2>Websites that look sharp <span class="grad">and get found.</span></h2>
+      <p>I'm Anjali Pandey – a web developer and SEO specialist. I turn business ideas into clean, responsive websites and then make sure search engines and real people can find them.</p>
+      <p>From law firms and trademark services to accountants, pharma, marketing agencies and construction companies, every project mixes design, performance and on-page SEO so the site works for the business, not just looks good.</p>
+    </div>
+    <div class="stats reveal d2">
+      <div class="stat"><b data-count="8">0</b><span>Live websites</span></div>
+      <div class="stat"><b data-count="5">0</b><span>Industries</span></div>
+      <div class="stat"><b data-count="3">0</b><span>Core skills</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <p class="eyebrow mono reveal">// selected work</p>
+  <h2 class="reveal">Websites I've <span class="grad">built &amp; optimised</span></h2>
+  <p class="lead reveal">Eight live projects. Hover the cards, then open any site.</p>
+  <div class="grid">
+
+    <a class="card reveal " href="https://legalstartup.in/" target="_blank" rel="noopener">
+      <div class="mock"><div class="top"><i></i><i></i><i></i><em>legalstartup.in</em></div>
+        <div class="shot-img"><img src="images/legalstartup.jpg" alt="Legal Startup website homepage screenshot" width="960" height="470" loading="lazy"></div></div>
+      <div class="tag mono">Legal · IP filing</div>
+      <h3>Legal Startup</h3>
+      <p>IP filing and business-setup platform – trademark filing, registrations, licences, legal and IT services, wrapped in a bold courthouse-themed hero.</p>
+      <div class="chips"><em>Trademark filing</em><em>Registrations</em><em>Licences</em></div>
+      <span class="visit">Visit website <span>↗</span></span>
+    </a>
+
+    <a class="card reveal d1" href="https://legalip.in/" target="_blank" rel="noopener">
+      <div class="mock"><div class="top"><i></i><i></i><i></i><em>legalip.in</em></div>
+        <div class="shot-img"><img src="images/legalip.jpg" alt="LegalIP website homepage screenshot" width="960" height="470" loading="lazy"></div></div>
+      <div class="tag mono">Intellectual property</div>
+      <h3>LegalIP</h3>
+      <p>IP law website for trademark, patent and copyright services, with a clear consult-now flow and one-tap call and WhatsApp shortcuts.</p>
+      <div class="chips"><em>Trademark</em><em>Patent</em><em>Copyright</em></div>
+      <span class="visit">Visit website <span>↗</span></span>
+    </a>
+
+    <a class="card reveal d2" href="https://trademarkdelhi.in/" target="_blank" rel="noopener">
+      <div class="mock"><div class="top"><i></i><i></i><i></i><em>trademarkdelhi.in</em></div>
+        <div class="shot-img"><img src="images/trademarkdelhi.jpg" alt="TrademarkDelhi website homepage screenshot" width="960" height="470" loading="lazy"></div></div>
+      <div class="tag mono">Trademark · Local SEO</div>
+      <h3>TrademarkDelhi</h3>
+      <p>Delhi trademark firm site – "Protecting Your Brand Identity & Rights" – with service pages, trust badges and a free-consultation call to action.</p>
+      <div class="chips"><em>Local SEO</em><em>Service pages</em><em>Free consultation</em></div>
+      <span class="visit">Visit website <span>↗</span></span>
+    </a>
+
+    <a class="card reveal " href="https://trisuka.com/" target="_blank" rel="noopener">
+      <div class="mock"><div class="top"><i></i><i></i><i></i><em>trisuka.com</em></div>
+        <div class="shot-img"><img src="images/trisuka.jpg" alt="Trisuka website homepage screenshot" width="960" height="470" loading="lazy"></div></div>
+      <div class="tag mono">Accounting · Tax</div>
+      <h3>Trisuka</h3>
+      <p>Chartered accountancy website covering accounting, tax and compliance, company formation, licences and trademark services.</p>
+      <div class="chips"><em>Accounting</em><em>Tax</em><em>Compliance</em></div>
+      <span class="visit">Visit website <span>↗</span></span>
+    </a>
+
+    <a class="card reveal d1" href="https://zynerahealthcare.com/" target="_blank" rel="noopener">
+      <div class="mock"><div class="top"><i></i><i></i><i></i><em>zynerahealthcare.com</em></div>
+        <div class="shot-img"><img src="images/zynerahealthcare.jpg" alt="Zynera Healthcare website homepage screenshot" width="960" height="470" loading="lazy"></div></div>
+      <div class="tag mono">Pharma · Healthcare</div>
+      <h3>Zynera Healthcare</h3>
+      <p>Pharma and healthcare brand website – "New Era of Healing" – with products, careers pages and one-tap contact.</p>
+      <div class="chips"><em>Products</em><em>Careers</em><em>Brand</em></div>
+      <span class="visit">Visit website <span>↗</span></span>
+    </a>
+
+    <a class="card reveal d2" href="https://business24hub.com/" target="_blank" rel="noopener">
+      <div class="mock"><div class="top"><i></i><i></i><i></i><em>business24hub.com</em></div>
+        <div class="shot-img"><img src="images/business24hub.jpg" alt="Business24Hub website homepage screenshot" width="960" height="470" loading="lazy"></div></div>
+      <div class="tag mono">Digital marketing</div>
+      <h3>Business24Hub</h3>
+      <p>Digital marketing agency website – web development, SEO, ads, branding and e-commerce – with an animated services ticker.</p>
+      <div class="chips"><em>Web dev</em><em>SEO</em><em>E-commerce</em></div>
+      <span class="visit">Visit website <span>↗</span></span>
+    </a>
+
+    <a class="card reveal " href="https://trisdha.com/" target="_blank" rel="noopener">
+      <div class="mock"><div class="top"><i></i><i></i><i></i><em>trisdha.com</em></div>
+        <div class="shot-img"><img src="images/trisdha.jpg" alt="Trisdha website homepage screenshot" width="960" height="470" loading="lazy"></div></div>
+      <div class="tag mono">Construction · Real estate</div>
+      <h3>Trisdha</h3>
+      <p>Construction and real-estate company site – "Building With Purpose" – with a hero slider, industries and quote request.</p>
+      <div class="chips"><em>Corporate</em><em>Hero slider</em><em>Get a quote</em></div>
+      <span class="visit">Visit website <span>↗</span></span>
+    </a>
+
+    <a class="card reveal d1" href="https://daymalawchamber.com/" target="_blank" rel="noopener">
+      <div class="mock"><div class="top"><i></i><i></i><i></i><em>daymalawchamber.com</em></div>
+        <div class="shot-img"><img src="images/daymalawchamber.jpg" alt="Dayma &amp; Associates website homepage screenshot" width="960" height="470" loading="lazy"></div></div>
+      <div class="tag mono">Law chamber</div>
+      <h3>Dayma &amp; Associates</h3>
+      <p>Law chamber website with practice areas, portfolio and contact – a warm, professional look for advocates and legal consultants.</p>
+      <div class="chips"><em>Law firm</em><em>Practice areas</em><em>Portfolio</em></div>
+      <span class="visit">Visit website <span>↗</span></span>
+    </a>
+
+  </div>
+</section>
+
+<section id="skills">
+  <p class="eyebrow mono reveal">// toolbox</p>
+  <h2 class="reveal">What I <span class="grad">work with</span></h2>
+  <div class="marquee reveal">
+    <div class="track"><div class="pill2">HTML5</div><div class="pill2">CSS3</div><div class="pill2">JavaScript</div><div class="pill2">Responsive Design</div><div class="pill2">UI Design</div><div class="pill2">On-Page SEO</div><div class="pill2">Technical SEO</div><div class="pill2">Schema Markup</div><div class="pill2">Page Speed</div><div class="pill2">Keyword Research</div><div class="pill2">Content Strategy</div><div class="pill2">Git &amp; GitHub</div>
+      <div class="pill2">HTML5</div><div class="pill2">CSS3</div><div class="pill2">JavaScript</div><div class="pill2">Responsive Design</div><div class="pill2">UI Design</div><div class="pill2">On-Page SEO</div><div class="pill2">Technical SEO</div><div class="pill2">Schema Markup</div><div class="pill2">Page Speed</div><div class="pill2">Keyword Research</div><div class="pill2">Content Strategy</div><div class="pill2">Git &amp; GitHub</div></div>
+    <div class="track rev"><div class="pill2">Local SEO</div><div class="pill2">Meta Tags</div><div class="pill2">Sitemaps</div><div class="pill2">Core Web Vitals</div><div class="pill2">Accessibility</div><div class="pill2">Analytics</div><div class="pill2">Search Console</div><div class="pill2">Link Building</div><div class="pill2">Landing Pages</div><div class="pill2">Animations</div>
+      <div class="pill2">Local SEO</div><div class="pill2">Meta Tags</div><div class="pill2">Sitemaps</div><div class="pill2">Core Web Vitals</div><div class="pill2">Accessibility</div><div class="pill2">Analytics</div><div class="pill2">Search Console</div><div class="pill2">Link Building</div><div class="pill2">Landing Pages</div><div class="pill2">Animations</div></div>
+  </div>
+</section>
+
+<section id="seo">
+  <p class="eyebrow mono reveal">// seo first</p>
+  <h2 class="reveal">Built to <span class="grad">rank</span>, not just to look good</h2>
+  <p class="lead reveal">Every site I ship follows an SEO checklist from day one.</p>
+  <div class="seo-grid">
+    <div class="box reveal"><span class="ic">🔎</span><h3>On-Page SEO</h3><p>Keyword-mapped titles, meta descriptions, headings, internal links and image alt text.</p></div>
+    <div class="box reveal d1"><span class="ic">⚙️</span><h3>Technical SEO</h3><p>Clean semantic code, sitemaps, robots rules, canonical tags and crawl-friendly structure.</p></div>
+    <div class="box reveal d2"><span class="ic">🧩</span><h3>Schema Markup</h3><p>Structured data for organisations, services and FAQs to earn richer search results.</p></div>
+    <div class="box reveal"><span class="ic">⚡</span><h3>Speed &amp; Vitals</h3><p>Lightweight pages, optimised assets and smooth mobile performance.</p></div>
+    <div class="box reveal d1"><span class="ic">📍</span><h3>Local SEO</h3><p>Location-focused service pages and business details that help nearby customers find you.</p></div>
+    <div class="box reveal d2"><span class="ic">📝</span><h3>Content Strategy</h3><p>Service pages, FAQs and updates written around what people actually search for.</p></div>
+  </div>
+</section>
+
+<section id="process">
+  <p class="eyebrow mono reveal">// how i work</p>
+  <h2 class="reveal">From idea to <span class="grad">page one</span></h2>
+  <div class="steps">
+    <div class="box reveal"><span class="num">01</span><span class="ic">🧭</span><h3>Plan</h3><p>Understand the business, audience and the keywords customers use.</p></div>
+    <div class="box reveal d1"><span class="num">02</span><span class="ic">🎨</span><h3>Design</h3><p>Layouts and visuals that feel trustworthy and guide visitors to act.</p></div>
+    <div class="box reveal d2"><span class="num">03</span><span class="ic">💻</span><h3>Build</h3><p>Fast, responsive, accessible code with SEO built into the structure.</p></div>
+    <div class="box reveal d3"><span class="num">04</span><span class="ic">🚀</span><h3>Launch &amp; Grow</h3><p>Publish, submit to search engines, then keep improving with data.</p></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact reveal">
+    <p class="eyebrow mono">// let's talk</p>
+    <h2>Have a website or SEO project?<br><span class="grad">Let's build it.</span></h2>
+    <p class="lead" style="margin:0 auto">Connect with me on LinkedIn and tell me about your idea.</p>
+    <a class="btn pri" href="https://www.linkedin.com/in/anjali-pandey-87b1903a5/" target="_blank" rel="noopener me">Message me on LinkedIn ↗</a>
+  </div>
+</section>
+</main>
+
+<footer>© <span id="yr"></span> Anjali Pandey · Designed &amp; built with ♥ · <a href="https://www.linkedin.com/in/anjali-pandey-87b1903a5/" target="_blank" rel="noopener me" style="color:#fff">LinkedIn</a></footer>
+
+<noscript>Anjali Pandey – Web Developer &amp; SEO Specialist. Websites: legalstartup.in, legalip.in, zynerahealthcare.com, trademarkdelhi.in, business24hub.com, trisuka.com, trisdha.com, daymalawchamber.com. LinkedIn: linkedin.com/in/anjali-pandey-87b1903a5</noscript>
+
+<script>
+(function(){
+  var NAME='Anjali Pandey';
+  var ROLES=['Web Developer','SEO Specialist','UI Designer','Problem Solver'];
+  var $=function(id){return document.getElementById(id)};
+  var sleep=function(ms){return new Promise(function(r){setTimeout(r,ms)})};
+  var intro=$('intro'), fit=$('fit');
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var done=false, skipped=false;
+
+  /* scale laptop to screen */
+  function setFit(){
+    var s=Math.min(1,(innerWidth-30)/600,(innerHeight-40)/560);
+    document.documentElement.style.setProperty('--fit',Math.max(.45,s));
+  }
+  setFit(); addEventListener('resize',function(){ if(!intro.classList.contains('face')) setFit(); });
+
+  /* split hero name into letters */
+  var h=$('h1name'), idx=0;
+  NAME.split(' ').forEach(function(word,wi){
+    var w=document.createElement('span'); w.className='w';
+    word.split('').forEach(function(c){
+      var s=document.createElement('span'); s.className='ch';
+      s.textContent=c; s.style.transitionDelay=(0.15+idx*0.06)+'s'; idx++;
+      w.appendChild(s);
+    });
+    h.appendChild(w);
+    if(wi===0) h.appendChild(document.createTextNode(' '));
+  });
+
+  async function type(el,text,speed){
+    for(var i=0;i<text.length;i++){ if(skipped) return; el.textContent+=text[i]; await sleep(speed+Math.random()*30); }
+  }
+
+  function finish(){
+    if(done) return; done=true;
+    document.body.classList.remove('loading');
+    document.body.classList.add('ready');
+    intro.classList.add('hide');
+    startRoles(); 
+    setTimeout(function(){ intro.remove(); },1000);
+  }
+
+  async function run(){
+    await sleep(500);
+    intro.classList.add('open');            // lid opens
+    await sleep(2300);
+    if(skipped) return;
+    await type($('l1'),'whoami',70); await sleep(250);
+    $('l2').textContent='> Hello, world! I am'; await sleep(450);
+    await type($('nm'),NAME,95);
+    $('caret').style.display='none';
+    await sleep(250);
+    await type($('rl'),'Web Developer · SEO Specialist',35);
+    $('bar').classList.add('on'); await sleep(200);
+    $('fill').style.width='100%';
+    $('l5').textContent='> loading portfolio ...';
+    await sleep(1500);
+    if(skipped) return;
+    // zoom into the screen
+    var z=Math.max(innerWidth/530,innerHeight/312)*1.04;
+    document.documentElement.style.setProperty('--fit',z);
+    intro.classList.add('face');
+    await sleep(1500);
+    finish();
+  }
+
+  $('skip').addEventListener('click',function(){skipped=true;finish();});
+  if(reduce){ finish(); } else { run(); }
+
+  /* rotating role text */
+  function startRoles(){
+    var el=$('roleTxt'), i=0;
+    (async function loop(){
+      while(true){
+        var t=ROLES[i%ROLES.length]; el.textContent='';
+        for(var k=0;k<t.length;k++){ el.textContent+=t[k]; await sleep(70); }
+        await sleep(1400);
+        while(el.textContent.length){ el.textContent=el.textContent.slice(0,-1); await sleep(35); }
+        await sleep(250); i++;
+      }
+    })();
+  }
+
+  /* particles */
+  var cv=$('bg'), cx=cv.getContext('2d'), P=[], mouse={x:-999,y:-999}, W,H;
+  function size(){ W=cv.width=innerWidth; H=cv.height=innerHeight; P=[]; var n=Math.min(110,Math.floor(W*H/14000)); for(var i=0;i<n;i++) P.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.5,vy:(Math.random()-.5)*.5}); }
+  size(); addEventListener('resize',size);
+  addEventListener('mousemove',function(e){mouse.x=e.clientX;mouse.y=e.clientY;});
+  (function draw(){
+    cx.clearRect(0,0,W,H);
+    for(var i=0;i<P.length;i++){
+      var p=P[i]; p.x+=p.vx; p.y+=p.vy;
+      if(p.x<0||p.x>W)p.vx*=-1; if(p.y<0||p.y>H)p.vy*=-1;
+      var dx=p.x-mouse.x, dy=p.y-mouse.y, d=Math.hypot(dx,dy);
+      if(d<140){ p.x+=dx/d*1.6; p.y+=dy/d*1.6; }
+      cx.fillStyle='rgba(160,170,255,.7)'; cx.beginPath(); cx.arc(p.x,p.y,1.6,0,6.3); cx.fill();
+      for(var j=i+1;j<P.length;j++){
+        var q=P[j], l=Math.hypot(p.x-q.x,p.y-q.y);
+        if(l<120){ cx.strokeStyle='rgba(124,92,255,'+(.35*(1-l/120))+')'; cx.lineWidth=1; cx.beginPath(); cx.moveTo(p.x,p.y); cx.lineTo(q.x,q.y); cx.stroke(); }
+      }
+      if(d<170){ cx.strokeStyle='rgba(0,229,255,'+(.5*(1-d/170))+')'; cx.beginPath(); cx.moveTo(p.x,p.y); cx.lineTo(mouse.x,mouse.y); cx.stroke(); }
+    }
+    requestAnimationFrame(draw);
+  })();
+
+  /* cursor */
+  var cur=$('cur'), ring=$('ring'), rx=0, ry=0, mx=0, my=0;
+  addEventListener('mousemove',function(e){ mx=e.clientX; my=e.clientY; cur.style.left=mx+'px'; cur.style.top=my+'px'; });
+  (function follow(){ rx+=(mx-rx)*.15; ry+=(my-ry)*.15; ring.style.left=rx+'px'; ring.style.top=ry+'px'; requestAnimationFrame(follow); })();
+  document.querySelectorAll('a,button,.card,.box,.stat').forEach(function(el){
+    el.addEventListener('mouseenter',function(){ring.classList.add('big')});
+    el.addEventListener('mouseleave',function(){ring.classList.remove('big')});
+  });
+
+  /* card tilt */
+  document.querySelectorAll('.card').forEach(function(c){
+    c.addEventListener('mousemove',function(e){
+      var r=c.getBoundingClientRect(), x=e.clientX-r.left, y=e.clientY-r.top;
+      c.style.setProperty('--ry',((x/r.width-.5)*14)+'deg');
+      c.style.setProperty('--rx',(-(y/r.height-.5)*14)+'deg');
+      c.style.setProperty('--mx',x+'px'); c.style.setProperty('--my',y+'px');
+    });
+    c.addEventListener('mouseleave',function(){ c.style.setProperty('--rx','0deg'); c.style.setProperty('--ry','0deg'); });
+  });
+
+  /* hero 3D parallax */
+  var tilt=$('tilt'), stage=$('stage');
+  addEventListener('mousemove',function(e){
+    var x=e.clientX/innerWidth-.5, y=e.clientY/innerHeight-.5;
+    tilt.style.setProperty('--ty',(x*34)+'deg');
+    tilt.style.setProperty('--tx',(-12+y*-18)+'deg');
+  });
+
+  /* reveal + counters */
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){
+      if(!e.isIntersecting) return;
+      e.target.classList.add('in'); io.unobserve(e.target);
+      e.target.querySelectorAll&&e.target.querySelectorAll('[data-count]').forEach(count);
+    });
+  },{threshold:.15});
+  document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+  function count(el){
+    var t=+el.dataset.count, n=0, step=Math.max(1,Math.round(t/30));
+    var iv=setInterval(function(){ n=Math.min(t,n+step); el.textContent=n; if(n>=t) clearInterval(iv); },50);
+  }
+
+  /* scroll progress, burger, year */
+  addEventListener('scroll',function(){
+    var h=document.documentElement; $('progress').style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%';
+  });
+  $('burger').addEventListener('click',function(){ $('menu').classList.toggle('open'); });
+  document.querySelectorAll('#menu a').forEach(function(a){ a.addEventListener('click',function(){ $('menu').classList.remove('open'); }); });
+  $('yr').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
