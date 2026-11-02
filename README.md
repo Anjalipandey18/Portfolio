@@ -1,20 +1,32 @@
-# Anjali Pandey – Animated Portfolio
+# EDELPRIME – Ecommerce Website
 
-Laptop-open intro animation, typed name, particle background, 3D cube, tilt cards, scroll reveals.
-Single file: `index.html` (no build step).
+Multi-page static website (HTML + CSS + JavaScript). No build step needed.
 
-## GitHub Pages par publish karne ke steps
-1. GitHub par naya repository banao: `YOUR-USERNAME.github.io` (apna username daalo).
-2. `index.html`, `robots.txt` aur poora `images/` folder upload karo (Add file → Upload files → Commit). Images folder zaroori hai, warna screenshots nahi dikhenge.
-3. Repo → Settings → Pages → Source: `main` branch, `/ (root)` → Save.
-4. 1–2 minute baad site live: `https://YOUR-USERNAME.github.io/`
+## Structure
+```
+index.html            Home
+shop.html             Product listing (filters: ?c=category&s=sub&q=search&wl=1)
+product.html          Product detail (?id=)
+cart.html  checkout.html  track.html  account.html
+contact.html  about.html  blog.html
+faqs.html  terms.html  privacy.html  cookies.html  returns.html
+careers.html  warranty-policy.html  disclaimer.html  caution-notice.html
+pricing-payments.html  loyalty-hub.html  store-locator.html  edelprime-stores.html
+assets/
+  css/style.css       All styles
+  js/data.js          Config, categories, products
+  js/helpers.js       UI helpers, product card, cart/wishlist state
+  js/pages.js         Page renderers (home, shop, product, cart, checkout ...)
+  js/main.js          Menus, footer, page dispatcher
+  js/faq.js           FAQ category filter
+  img/                Put edelprime-logo.png here (black logo on white)
+```
 
-## SEO ke liye zaroor karo
-- `index.html` me `YOUR-USERNAME.github.io` ko apne asli URL se replace karo (canonical, og:url, JSON-LD).
-- Google Search Console me site add karke URL submit karo.
-- LinkedIn profile ke Website field me portfolio ka link lagao.
+## Run
+Open `index.html`, or host the folder on any web hosting. For local testing use
+VS Code "Live Server" or `python -m http.server`.
 
-## Edit karna ho to
-- Role text: `ROLES` array (script ke upar).
-- Project cards: `#work` section ke andar.
-- Skills: `#skills` section.
+## Notes
+- Product data lives in `assets/js/data.js`. Cart, wishlist and orders are saved in the browser (localStorage) – demo mode, payment is simulated.
+- Replace the dummy phone number `+91 98765 43210` in every page footer / contact page.
+- Add the "Last updated" date to the policy pages (terms, privacy, cookies, returns).
